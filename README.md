@@ -9,10 +9,10 @@ Fall 2016
 
 ###Dataset: 
 CACM test-collection which is comprised of the following:
-1. Textual corpus: cacm.tar.gz (3204 raw documents – except for Task 3 part B: use stemmed version cacm_stem.txt)
-2. Queries (64 unprocessed cacm.query – except for Task 3 part B: use cacm_stem.query)
-3. Relevance judgments (cacm.rel)
-4. Stoplist: common_words.txt
+	1. Textual corpus: cacm.tar.gz (3204 raw documents – except for Task 3 part B: use stemmed version cacm_stem.txt)
+	2. Queries (64 unprocessed cacm.query – except for Task 3 part B: use cacm_stem.query)
+	3. Relevance judgments (cacm.rel)
+	4. Stoplist: common_words.txt
 
 ###Team:
 * [Aly Akhtar](https://github.com/alyakhtar)
