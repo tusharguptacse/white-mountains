@@ -11,7 +11,6 @@ def get_text(filename):
 	source_code = file.read()
 	soup = BeautifulSoup(source_code, "lxml")
 	for text in soup.findAll('pre'):
-		# print text.text
 		tokenize(text.text,filename)
 
 def tokenize(data,filename):
