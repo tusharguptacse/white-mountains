@@ -18,12 +18,12 @@ def get_all_tf_df():
 		fr = []
 		d = []
 		data = ''
-		line = i.split('->')
+		line = i.split(' -> ')
 		for j in line[1]:
 			if j not in ('(',')',' ','\n'):
 				data += j
 		docs = data.split(',')
-		for k in xrange(len(docs)-1):
+		for k in xrange(len(docs)):
 			if k % 2 == 0:
 				d.append(docs[k]+'.txt')
 			else:
@@ -34,6 +34,30 @@ def get_all_tf_df():
 		for l in xrange(len(d)):
 			tf_all[line[0]][d[l]] = fr[l]
 			term_docs[line[0]].append(d[l])
+
+def clean_query(words):
+	query = []
+	except_characters = ['!','.',':',',',';','}','{','^','*','=','|','[',']','#','@','&',')',\
+	'(','?','/','`',"''",'``',"'",'%',' ','','$','<','>','"']
+	for word in words:
+		new_word = ''
+		if '-' in word:
+			i = word.split('-')
+			try:
+				a = float(i[0])
+				query.append(word)
+			except:
+				continue
+		else:
+			try: 
+				a = float(word)
+				query.append(word)
+			except:
+				for letter in word:
+					if letter not in except_characters:
+						new_word += letter
+				query.append(new_word.lower())
+	return query
 
 
 def get_doc_list():
@@ -102,9 +126,12 @@ def get_term_idf():
 	term_idf = {}
 
 	for term in query_words:
-		if df[term] > 0:
-			term_idf[term] = 1 + math.log(1000/float(df[term]))
-		else:
+		try:
+			if df[term] > 0:
+				term_idf[term] = 1 + math.log(1000/float(df[term]))
+			else:
+				term_idf[term] = 1
+		except:
 			term_idf[term] = 1
 
 	return term_idf
@@ -166,14 +193,14 @@ if __name__ == '__main__':
 	global query_words
 	get_all_tf_df()
 	queries = open('queries.txt','r')
-	task2_file = open('task2_queries3.txt','a')
+	task2_file = open('task1_query_result.txt','a')
 	for i in queries:
 		VSCS = {}
 		output = []
 		sentence = i.strip('\n')
 		words = sentence.split()
 		query_id = words[0]
-		query_words = words[1:]
+		query_words = clean_query(words[1:])
 		docs = get_doc_list()
 		for d in docs:
 			vector_space_cosine_similarity(d)

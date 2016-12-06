@@ -18,9 +18,11 @@ def get_text(filename):
 	
 def write_to_file():
 	file = open('queries.txt','w')
+	i = 1
 	for q in queries:
-		query = q.replace('\n','')
-		file.writelines(query[1:]+'\n')
+		query = q.replace('\n',' ')
+		file.writelines(str(i)+' '+query[4:]+'\n')
+		i += 1
 
 
 def main():
