@@ -11,30 +11,6 @@ from task2_VSCS import main,extract_data
 alpha = 1.0
 beta = 0.5
 
-def clean_query(words):
-	query = []
-	except_characters = ['!','.',':',',',';','}','{','^','*','=','|','[',']','#','@','&',')',\
-	'(','?','/','`',"''",'``',"'",'%',' ','','$','<','>','"']
-	for word in words:
-		new_word = ''
-		if '-' in word:
-			i = word.split('-')
-			try:
-				a = float(i[0])
-				query.append(word)
-			except:
-				continue
-		else:
-			try: 
-				a = float(word)
-				query.append(word)
-			except:
-				for letter in word:
-					if letter not in except_characters:
-						new_word += letter
-				query.append(new_word.lower())
-	return query
-
 def get_query_vector(query):
 	query_vector = {}
 	for i in vocabulary:
@@ -111,7 +87,7 @@ if __name__ == "__main__":
 		sentence = i.strip('\n')
 		words = sentence.split()
 		query_id = words[0]
-		query_words = clean_query(words[1:])
+		query_words = words[1:]
 		result = main(query_words,0)
 		for docs in result:
 			top_documents.append(docs[0])

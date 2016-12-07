@@ -78,30 +78,6 @@ def get_all_doc_length():
 		doc_length[i] = math.sqrt(length)
 
 
-def clean_query(words):
-	query = []
-	except_characters = ['!','.',':',',',';','}','{','^','*','=','|','[',']','#','@','&',')',\
-	'(','?','/','`',"''",'``',"'",'%',' ','','$','<','>','"']
-	for word in words:
-		new_word = ''
-		if '-' in word:
-			i = word.split('-')
-			try:
-				a = float(i[0])
-				query.append(word)
-			except:
-				continue
-		else:
-			try: 
-				a = float(word)
-				query.append(word)
-			except:
-				for letter in word:
-					if letter not in except_characters:
-						new_word += letter
-				query.append(new_word.lower())
-	return query
-
 def get_query_tf_idf():
 	query_tf_idf = {}
 	for token in tf:
@@ -149,7 +125,7 @@ def main():
 		sentence = i.strip('\n')
 		words = sentence.split()
 		query_id = words[0]
-		query_words = clean_query(words[1:])
+		query_words = words[1:]
 		val = get_query_tf_idf()
 		query_length = get_query_length(val)
 		VSCS = cosine_similarity(query_length,val)
