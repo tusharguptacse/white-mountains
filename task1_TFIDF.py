@@ -143,7 +143,7 @@ def main():
 	get_all_doc_length()
 	global query_words
 	queries = open('queries.txt','r')
-	task2_file = open('task1_query_result.txt','a')
+	task2_file = open('task2_query_result.txt','a')
 	for i in queries:
 		output = []
 		sentence = i.strip('\n')
