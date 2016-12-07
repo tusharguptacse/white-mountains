@@ -115,7 +115,7 @@ def extract_data():
 	get_tf_idf()
 	get_all_doc_length()
 		 
-def main(query):
+def main(query,level):
 	global query_words
 	output = []
 	query_words = query
@@ -123,5 +123,8 @@ def main(query):
 	query_length = get_query_length(val)
 	VSCS = cosine_similarity(query_length,val)
 	ranked_documents = sorted(VSCS.items(), key=operator.itemgetter(1), reverse=True)
-	return ranked_documents[:10]
+	if level == 0:
+		return ranked_documents[:10]
+	else:
+		return ranked_documents[:100]
 	
