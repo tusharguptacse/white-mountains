@@ -77,31 +77,6 @@ def get_all_doc_length():
 			length += math.pow(tf_idf[j][i],2)
 		doc_length[i] = math.sqrt(length)
 
-
-def clean_query(words):
-	query = []
-	except_characters = ['!','.',':',',',';','}','{','^','*','=','|','[',']','#','@','&',')',\
-	'(','?','/','`',"''",'``',"'",'%',' ','','$','<','>','"']
-	for word in words:
-		new_word = ''
-		if '-' in word:
-			i = word.split('-')
-			try:
-				a = float(i[0])
-				query.append(word)
-			except:
-				continue
-		else:
-			try: 
-				a = float(word)
-				query.append(word)
-			except:
-				for letter in word:
-					if letter not in except_characters:
-						new_word += letter
-				query.append(new_word.lower())
-	return query
-
 def get_query_tf_idf():
 	query_tf_idf = {}
 	for token in tf:
@@ -134,35 +109,19 @@ def cosine_similarity(ql,qtfidf):
 		VSCS[i] = numerator/denominator
 	return VSCS
 
-		 
-def main():
-	start_time = time.time()
+def extract_data():
 	get_tf_df()
 	get_term_idf()
 	get_tf_idf()
 	get_all_doc_length()
+		 
+def main(query):
 	global query_words
-	queries = open('queries.txt','r')
-	task2_file = open('task2_query_result.txt','a')
-	for i in queries:
-		output = []
-		sentence = i.strip('\n')
-		words = sentence.split()
-		query_id = words[0]
-		query_words = clean_query(words[1:])
-		val = get_query_tf_idf()
-		query_length = get_query_length(val)
-		VSCS = cosine_similarity(query_length,val)
-		ranked_documents = sorted(VSCS.items(), key=operator.itemgetter(1), reverse=True)
-		for y,z in enumerate(ranked_documents):
-			if y < 100 and z[1] != 0:
-				output.append([query_id,'Q0',z[0],y+1,z[1],'V.S.C.S.'])
-		headers = ['Query_Id','Literal','Doc_Id','Rank','Score','System Name']
-		task2_file.writelines('Query: '+sentence[2:]+'\n')
-		task2_file.write(tabulate(output,headers,tablefmt="grid"))
-		task2_file.writelines('\n\n')
-
-	print("\n\nTime Taken : %0.2f seconds" % (time.time() - start_time))
-
-if __name__ == "__main__":
-	main()
+	output = []
+	query_words = query
+	val = get_query_tf_idf()
+	query_length = get_query_length(val)
+	VSCS = cosine_similarity(query_length,val)
+	ranked_documents = sorted(VSCS.items(), key=operator.itemgetter(1), reverse=True)
+	return ranked_documents[:10]
+	
