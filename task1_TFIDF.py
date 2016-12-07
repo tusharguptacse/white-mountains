@@ -122,17 +122,15 @@ def get_query_length(val):
 		length += math.pow(val[i],2)
 	return math.sqrt(length)
 
-def cosine_similarity(ql,qtfidf):
-	VSCS = {}
+def tfidf(ql,qtfidf):
+	tfidf = {}
 	for i,x in doc_term_index.iteritems():
 		numerator = 0.0
 		denominator = 0.0
 		for token in x:
 			numerator += tf_idf[token][i] * qtfidf[token]
-
-		denominator = doc_length[i] * ql
-		VSCS[i] = numerator/denominator
-	return VSCS
+		tfidf[i] = numerator
+	return tfidf
 
 		 
 def main():
@@ -143,7 +141,7 @@ def main():
 	get_all_doc_length()
 	global query_words
 	queries = open('queries.txt','r')
-	task2_file = open('task2_query_result.txt','a')
+	task2_file = open('task1_query_result_TFIDF.txt','a')
 	for i in queries:
 		output = []
 		sentence = i.strip('\n')
@@ -152,11 +150,11 @@ def main():
 		query_words = clean_query(words[1:])
 		val = get_query_tf_idf()
 		query_length = get_query_length(val)
-		VSCS = cosine_similarity(query_length,val)
-		ranked_documents = sorted(VSCS.items(), key=operator.itemgetter(1), reverse=True)
+		TFIDF = tfidf(query_length,val)
+		ranked_documents = sorted(TFIDF.items(), key=operator.itemgetter(1), reverse=True)
 		for y,z in enumerate(ranked_documents):
 			if y < 100 and z[1] != 0:
-				output.append([query_id,'Q0',z[0],y+1,z[1],'V.S.C.S.'])
+				output.append([query_id,'Q0',z[0],y+1,z[1],'TF-IDF'])
 		headers = ['Query_Id','Literal','Doc_Id','Rank','Score','System Name']
 		task2_file.writelines('Query: '+sentence[2:]+'\n')
 		task2_file.write(tabulate(output,headers,tablefmt="grid"))
