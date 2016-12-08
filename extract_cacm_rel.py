@@ -32,6 +32,10 @@ def get_tf_df():
 				d.append(docs[k]+'.txt')
 			else:
 				fr.append(int(docs[k]))
+		tf[line[0]] = []
+		for l in xrange(len(d)):
+			tf[line[0]].append((d[l],fr[l]))
+
 		for n in xrange(len(d)):
 			if d[n] in doc_term_index:
 				doc_terms[d[n]].append([line[0]])

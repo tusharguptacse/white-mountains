@@ -5,6 +5,7 @@ import time
 import math
 import operator
 from tabulate import tabulate
+import csv
 
 df = {}
 idf = {} 
@@ -119,7 +120,9 @@ def main():
 	get_all_doc_length()
 	global query_words
 	queries = open('queries.txt','r')
-	task2_file = open('task1_query_result_VSCS.txt','a')
+	task1_file = open('task1_query_result_VSCS.csv','a')
+	writer = csv.writer(task1_file)
+	writer.writerow(["Query_Id", "Literal", "Doc_Id",'Rank','Score','System Name'])
 	for i in queries:
 		output = []
 		sentence = i.strip('\n')
@@ -133,10 +136,8 @@ def main():
 		for y,z in enumerate(ranked_documents):
 			if y < 100 and z[1] != 0:
 				output.append([query_id,'Q0',z[0],y+1,z[1],'V.S.C.S.'])
-		headers = ['Query_Id','Literal','Doc_Id','Rank','Score','System Name']
-		task2_file.writelines('Query: '+sentence[2:]+'\n')
-		task2_file.write(tabulate(output,headers,tablefmt="grid"))
-		task2_file.writelines('\n\n')
+		for row in output:
+			writer.writerow(row)
 
 	print("\n\nTime Taken : %0.2f seconds" % (time.time() - start_time))
 
