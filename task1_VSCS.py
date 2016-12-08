@@ -30,7 +30,7 @@ def get_tf_df():
 		docs = data.split(',')
 		for k in xrange(len(docs)):
 			if k % 2 == 0:
-				d.append(docs[k]+'.txt')
+				d.append(docs[k])
 			else:
 				fr.append(int(docs[k]))
 		df[line[0]] = len(d)

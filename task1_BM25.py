@@ -3,7 +3,7 @@ from operator import itemgetter
 from itertools import groupby
 import sys
 import time
-from tabulate import tabulate
+import csv
 
 
 b = 0.75
@@ -54,31 +54,6 @@ def extract_inverted_files():
             else:
                 doc_terms[d[n]] = []
                 doc_terms[d[n]].append([line[0]])
-
-def extract_cacm_rel():
-    lines = []
-    f = open('cacm.rel','r')
-    for i in f:
-        text = i.strip('\n')
-        words = text.split()
-        if words[2] in docs:
-            docs[words[2]].append(words[3])
-        else:
-            docs[words[2]] = []
-            docs[words[2]].append(words[3])
-
-def calculate_R(query_id):
-    doc_list = []
-    for i in docs:
-        if query in docs[i]:
-            doc_list.append(i)
-    return doc_list
-
-def calculate_r(query,doc_list):
-    for i in query:
-        for j in doc_list:
-            if i in doc_terms[j]:
-                count += 1
 
 def BM25_score(n,dl,f):
     r = 0       
@@ -153,7 +128,8 @@ def main():
     del result_list[-1]
     query_id = 1
     task1_file = open('task1_query_result_BM25.txt','a')
-    headers = ['Query_Id','Literal','Doc_Id','Rank','Score','System Name']
+    writer = csv.writer(task1_file)
+    writer.writerow(["Query_Id", "Literal", "Doc_Id",'Rank','Score','System Name'])
     query_id = 1
     for each in result_list:
         output = []
@@ -167,9 +143,8 @@ def main():
         for each_list in sorted_result_list[:int(100)]:
             output.append([query_id,'Q0',each_list[0],rank,each_list[1]])
             rank += 1
-        task1_file.writelines('Query: '+new_query+'\n')
-        task1_file.write(tabulate(output,headers,tablefmt="grid"))
-        task1_file.writelines('\n\n')
+        for row in output:
+            writer.writerow(row)
         query_id += 1
 
     print("\n\nTime Taken : %0.2f seconds" % (time.time() - start_time))

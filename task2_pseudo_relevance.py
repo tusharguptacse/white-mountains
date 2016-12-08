@@ -33,7 +33,10 @@ def get_relevant_vector(docs):
 				else:
 					relevant_vector[i] = 1
 			else:
-				relevant_vector[i] = 0
+				if i in relevant_vector:
+					continue
+				else:
+					relevant_vector[i] = 0
 	return relevant_vector
 
 def get_non_relevant_vector(docs):
@@ -100,5 +103,6 @@ if __name__ == "__main__":
 		relevant_vector = get_relevant_vector(relevant_documents)
 		nonrelevant_vector = get_non_relevant_vector(non_relevant_documents)
 		calculate_rocchio_feedback(query_vector,relevant_vector,nonrelevant_vector,query_words)
+		break
 
 	print("\n\nTime Taken : %0.2f seconds" % (time.time() - start_time))
