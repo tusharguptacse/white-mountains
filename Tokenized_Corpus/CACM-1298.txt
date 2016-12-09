@@ -3,7 +3,6 @@ numerical
 integration
 by
 simpson
-'s
 rule
 algorithm
 145

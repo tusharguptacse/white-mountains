@@ -82,7 +82,6 @@ label
 procedure
 or
 pascal
-'s
 enumerated
 type
 cacm

@@ -56,7 +56,6 @@ results
 at
 the
 user
-'s
 terminal
 a
 multiplexer

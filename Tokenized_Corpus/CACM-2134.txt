@@ -54,7 +54,6 @@ adapted
 version
 of
 silver
-'s
 algol
 procedure
 are

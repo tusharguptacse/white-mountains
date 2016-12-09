@@ -1,7 +1,6 @@
 comment
 on
 lawler
-'s
 multilevel
 boolean
 minimization

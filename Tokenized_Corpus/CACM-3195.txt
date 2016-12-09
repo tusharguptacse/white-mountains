@@ -47,7 +47,6 @@ reiterate
 ans
 underline
 acm
-'s
 policy
 with
 respect

@@ -23,7 +23,6 @@ less
 costly
 than
 wallace
-'s
 recently
 suggested
 method
@@ -42,7 +41,6 @@ to
 a
 whereas
 wallace
-'s
 method
 is
 proportional

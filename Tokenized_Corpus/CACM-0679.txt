@@ -106,7 +106,6 @@ is
 focused
 on
 madcap
-'s
 notation
 for
 and

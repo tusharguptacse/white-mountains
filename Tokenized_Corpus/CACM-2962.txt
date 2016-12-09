@@ -3,7 +3,6 @@ and
 employment
 of
 ph
-'s
 in
 computer
 science-1976
@@ -17,7 +16,6 @@ and
 employment
 of
 ph
-'s
 in
 computer
 science
@@ -81,7 +79,6 @@ science
 production
 of
 ph
-'s
 employment
 students
 13

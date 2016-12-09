@@ -15,7 +15,6 @@ subset
 of
 a
 program
-'s
 segments
 which
 are
@@ -28,7 +27,7 @@ of
 its
 execution
 a
-program's
+programs
 behavior
 can
 be

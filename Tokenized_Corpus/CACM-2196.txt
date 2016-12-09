@@ -123,11 +123,9 @@ of
 both
 the
 computer
-'s
 and
 the
 human
-'s
 problem-solving
 abilities
 the
@@ -149,7 +147,6 @@ in
 many
 of
 today
-'s
 heuristics
 but
 it

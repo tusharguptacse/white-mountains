@@ -64,7 +64,6 @@ given
 polynomial
 by
 kronecker
-'s
 method
 and
 introducing

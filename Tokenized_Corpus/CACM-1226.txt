@@ -35,7 +35,6 @@ critical
 to
 the
 system
-'s
 operating
 efficiency
 this

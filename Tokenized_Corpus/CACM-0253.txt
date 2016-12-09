@@ -3,7 +3,6 @@ a
 program
 for
 ray-chaudhuri
-'s
 algorithm
 for
 a

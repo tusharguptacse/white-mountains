@@ -25,7 +25,6 @@ similar
 to
 both
 knuth
-'s
 lr
 k
 algorithm

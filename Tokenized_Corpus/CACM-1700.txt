@@ -76,7 +76,6 @@ created
 from
 the
 item
-'s
 meaningful
 words
 using

@@ -1,7 +1,6 @@
 comment
 on
 cheney
-'s
 list-compaction
 algorithm
 cacm

@@ -1,7 +1,7 @@
 product
 type
 two-point
-gauss-legendre-simpson's
+gauss-legendre-simpsons
 integration
 d1
 algorithm
@@ -20,7 +20,6 @@ quadrature
 gaussian
 quadrature
 simpson
-'s
 rule
 516
 ca721213

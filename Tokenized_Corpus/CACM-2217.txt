@@ -40,7 +40,6 @@ in
 predicate
 calculus
 multiple
-'s
 proving
 program
 pp

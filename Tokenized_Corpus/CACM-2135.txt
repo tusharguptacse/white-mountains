@@ -81,7 +81,6 @@ functionals
 divided
 differences
 newton
-'s
 interpolation
 formula
 513

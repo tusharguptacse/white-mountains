@@ -28,7 +28,6 @@ for
 storing
 the
 user
-'s
 items
 rules
 are

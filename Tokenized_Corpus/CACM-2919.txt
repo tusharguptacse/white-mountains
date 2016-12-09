@@ -1,6 +1,5 @@
 the
 programmer
-'s
 workbench-a
 machine
 for
@@ -100,7 +99,6 @@ here
 called
 a
 programmer
-'s
 workbench
 the
 four

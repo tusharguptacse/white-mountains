@@ -66,10 +66,8 @@ thus
 includes
 both
 two
-'s
 and
 one
-'s
 complement
 implementation
 the
@@ -114,11 +112,9 @@ arithmetic
 complement
 division
 one
-'s
 complement
 arithmetic
 two
-'s
 complement
 arithmetic
 315

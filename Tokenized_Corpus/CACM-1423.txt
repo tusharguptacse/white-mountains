@@ -150,7 +150,7 @@ squares
 transformation
 matrix
 inv
-a'a
+aa
 a
 and
 has
@@ -168,7 +168,7 @@ in
 forming
 the
 product
-a'a
+aa
 explicitly
 cacm
 may

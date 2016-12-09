@@ -8,7 +8,6 @@ working
 set
 parameter
 denning
-'s
 method
 for
 selecting
@@ -43,7 +42,6 @@ this
 modified
 model
 dening
-'s
 results
 on
 page

@@ -20,7 +20,7 @@ eigenvalues
 eigenvectors
 latent
 roots
-householder's
+householders
 method
 qr
 algorithm

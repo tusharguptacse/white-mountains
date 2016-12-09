@@ -35,7 +35,6 @@ detected
 from
 the
 argument-program
-'s
 form
 alone
 without

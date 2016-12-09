@@ -16,7 +16,6 @@ an
 implementation
 of
 stiefel
-'s
 exchange
 algorithm
 for
@@ -58,7 +57,6 @@ a
 generalization
 of
 stiefel
-'s
 algorithm
 is
 developed

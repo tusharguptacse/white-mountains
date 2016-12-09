@@ -7,7 +7,6 @@ a
 forerunner
 of
 today
-'s
 programming
 languages
 plankalkul
@@ -20,7 +19,6 @@ zuse
 in
 the
 1940
-'s
 to
 devise
 a
@@ -64,7 +62,6 @@ are
 standard
 in
 today
-'s
 programming
 languages
 the

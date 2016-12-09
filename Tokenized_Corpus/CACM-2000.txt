@@ -93,7 +93,6 @@ goodman-lance
 boundary-value
 problems
 newton
-'s
 method
 nonlinear
 equations

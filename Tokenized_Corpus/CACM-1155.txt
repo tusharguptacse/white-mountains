@@ -118,7 +118,6 @@ to
 learn
 4
 deducom
-'s
 search
 procedure
 at
@@ -161,7 +160,6 @@ order
 at
 present
 deducom
-'s
 method
 of
 making

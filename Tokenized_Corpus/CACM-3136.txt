@@ -31,7 +31,6 @@ price/performance
 such
 as
 grosch
-'s
 law
 are
 shown
@@ -111,7 +110,6 @@ mckenney
 j
 price/performance
 grosch
-'s
 law
 u
 computer

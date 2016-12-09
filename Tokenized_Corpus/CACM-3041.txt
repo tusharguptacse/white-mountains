@@ -85,7 +85,6 @@ median
 of
 a
 node
-'s
 descendents
 as
 its
@@ -175,7 +174,6 @@ the
 application
 of
 mst
-'s
 to
 dictionary
 lookup
@@ -209,7 +207,6 @@ heaps
 balanced
 trees
 zipf
-'s
 law
 information
 retrieval

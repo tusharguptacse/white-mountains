@@ -1,6 +1,5 @@
 a
 programmer
-'s
 description
 of
 l^6

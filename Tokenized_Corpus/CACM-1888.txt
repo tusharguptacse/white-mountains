@@ -69,7 +69,6 @@ one-third
 that
 from
 numerov
-'s
 method
 requiring
 the

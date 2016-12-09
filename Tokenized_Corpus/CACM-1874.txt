@@ -3,7 +3,7 @@ pseudorandom
 numbers
 on
 a
-two's
+twos
 complement
 machine
 such
@@ -26,7 +26,6 @@ the
 type
 of
 two
-'s
 complement
 arithmetic
 used
@@ -139,7 +138,7 @@ congruential
 generator
 power
 residue
-two's
+twos
 complement
 arithmetic
 ibm

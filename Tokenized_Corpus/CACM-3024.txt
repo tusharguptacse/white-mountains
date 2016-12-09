@@ -43,7 +43,6 @@ date
 that
 satisfies
 erda
-'s
 class
 vi
 requirement
@@ -65,7 +64,6 @@ second
 1
 the
 cray-1
-'s
 fortran
 compiler
 cft
@@ -84,7 +82,6 @@ benefits
 of
 the
 cray-1
-'s
 vector
 processing
 architecture
@@ -132,7 +129,6 @@ vectorization
 thus
 the
 user
-'s
 investment
 of
 hundreds

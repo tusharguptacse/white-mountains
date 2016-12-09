@@ -109,7 +109,6 @@ for
 obtaining
 a
 segment
-'s
 location
 in
 main

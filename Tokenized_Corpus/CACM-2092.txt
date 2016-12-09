@@ -39,7 +39,6 @@ time-sharing
 system
 the
 system
-'s
 data
 structures
 and
@@ -76,7 +75,6 @@ examples
 of
 the
 system
-'s
 performance
 and
 of

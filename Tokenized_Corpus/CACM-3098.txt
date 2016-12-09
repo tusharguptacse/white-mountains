@@ -41,12 +41,10 @@ is
 compared
 with
 fishman
-'s
 and
 ahrens
 and
 dieter
-'s
 methods
 the
 core
@@ -63,7 +61,7 @@ similar
 to
 those
 of
-fishman's
+fishmans
 method
 the
 proposed
@@ -73,7 +71,6 @@ the
 same
 as
 fishman
-'s
 method
 for
 1
@@ -83,7 +80,7 @@ and
 is
 faster
 than
-fishman's
+fishmans
 method
 for
 3
@@ -100,7 +97,6 @@ than
 ahrens
 and
 dieter
-'s
 method
 and
 is

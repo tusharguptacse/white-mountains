@@ -34,7 +34,6 @@ a
 development
 of
 dijkstra
-'s
 guarded
 command
 these

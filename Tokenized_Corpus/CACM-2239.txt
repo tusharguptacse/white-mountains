@@ -17,7 +17,6 @@ integration
 automatic
 integration
 simpson
-'s
 rule
 numerical
 quadrature

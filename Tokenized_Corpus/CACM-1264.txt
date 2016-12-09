@@ -97,7 +97,6 @@ object
 decks
 execute
 user
-'s
 program
 list
 card

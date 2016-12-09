@@ -21,7 +21,6 @@ function
 orthogonal
 polynomials
 newton
-'s
 method
 successive
 deflation

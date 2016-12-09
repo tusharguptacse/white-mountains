@@ -7,7 +7,6 @@ is
 shown
 how
 wengert
-'s
 procedure
 for
 computation
@@ -42,7 +41,6 @@ parallel
 as
 in
 wengert
-'s
 procedure
 but
 with

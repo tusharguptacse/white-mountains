@@ -65,7 +65,6 @@ extent
 of
 his
 computer
-'s
 output
 to
 define

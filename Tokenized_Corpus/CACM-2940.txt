@@ -69,7 +69,6 @@ means
 of
 specializing
 alphard
-'s
 loops
 to
 operate

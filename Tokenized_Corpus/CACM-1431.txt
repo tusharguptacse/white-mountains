@@ -33,7 +33,6 @@ structure
 from
 the
 structure
-'s
 definition
 cacm
 may

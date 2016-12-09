@@ -22,7 +22,6 @@ roots
 latent
 vectors
 householder
-'s
 method
 qr
 algorithm

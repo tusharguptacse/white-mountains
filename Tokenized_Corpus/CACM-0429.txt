@@ -3,7 +3,6 @@ nimerical
 integration
 by
 simpson
-'s
 rule
 algorithm
 145

@@ -87,7 +87,6 @@ discussed
 from
 the
 banker
-'s
 point
 of
 view

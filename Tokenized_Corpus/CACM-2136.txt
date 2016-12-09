@@ -4,11 +4,11 @@ on
 a
 modification
 of
-nordsieck's
+nordsiecks
 method
 using
 an
-'off-step
+off-step
 point
 cacm
 december
@@ -29,7 +29,6 @@ corrector
 round-off
 error
 nordsieck
-'s
 method
 gragg-stetter
 modification

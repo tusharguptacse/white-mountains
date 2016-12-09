@@ -61,7 +61,6 @@ intricacies
 of
 a
 machine
-'s
 order
 code
 higher

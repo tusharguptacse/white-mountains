@@ -9,7 +9,6 @@ report
 on
 the
 author
-'s
 trip
 to
 universities
@@ -56,7 +55,6 @@ future
 in
 the
 author
-'s
 opinion
 the
 state

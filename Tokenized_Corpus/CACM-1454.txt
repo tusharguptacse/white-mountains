@@ -35,7 +35,6 @@ which
 considers
 the
 user
-'s
 background
 as
 part

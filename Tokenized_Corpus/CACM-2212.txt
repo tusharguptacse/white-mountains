@@ -5,10 +5,8 @@ february
 tolman
 h
 fisher
-'s
 f-distribution
 student
-'s
 t-distribution
 55
 ca710209

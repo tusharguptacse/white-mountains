@@ -114,7 +114,6 @@ of
 e
 f
 codd
-'s
 relational
 algebra
 are

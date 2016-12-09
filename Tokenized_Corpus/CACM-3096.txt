@@ -19,7 +19,6 @@ in
 which
 every
 node
-'s
 right
 subtree
 has

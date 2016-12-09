@@ -24,7 +24,6 @@ evaluation
 algol
 procedure
 horner
-'s
 scheme
 512
 422

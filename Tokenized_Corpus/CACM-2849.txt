@@ -51,7 +51,6 @@ coupled
 multiprocessors
 an
 ethernet
-'s
 shared
 communication
 facility

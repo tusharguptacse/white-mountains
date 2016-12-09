@@ -15,7 +15,7 @@ presents
 an
 improvement
 to
-lelann's
+lelanns
 algorithm
 for
 finding

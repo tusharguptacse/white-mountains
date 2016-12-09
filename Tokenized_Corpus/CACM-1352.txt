@@ -40,7 +40,6 @@ is
 shown
 that
 romberg
-'s
 method
 is
 more

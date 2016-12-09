@@ -156,7 +156,6 @@ text
 to
 the
 memory
-'s
 prior
 content
 are
@@ -299,7 +298,6 @@ large
 increment
 in
 tlc
-'s
 effective
 knowledge
 of
@@ -315,7 +313,6 @@ comprehend
 text
 the
 program
-'s
 strategy
 is
 presented

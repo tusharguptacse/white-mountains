@@ -2,7 +2,6 @@ further
 comments
 on
 dijkstra
-'s
 concurrent
 programming
 control

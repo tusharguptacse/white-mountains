@@ -15,7 +15,6 @@ program
 based
 on
 lemke
-'s
 complementary
 pivot
 algorithm
@@ -63,7 +62,6 @@ program
 complementary
 problem
 lemke
-'s
 algorithm
 simplex
 method

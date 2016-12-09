@@ -5,9 +5,7 @@ import time
 import math
 import operator
 import csv
-import task2_VSCS
 import task2_BM25
-# from task2_VSCS import main,extract_data
 from task2_BM25 import main,extract_data,second_run
 
 alpha = 1.0
@@ -35,10 +33,6 @@ def get_relevant_vector(docs):
 		for j in x:
 			if j in docs:
 				relevant_vector[i] = vocabulary[i][j]
-				# if i in relevant_vector:
-				# 	relevant_vector[i] += 1
-				# else:
-				# 	relevant_vector[i] = 1
 			else:
 				if i in relevant_vector:
 					continue
@@ -103,7 +97,7 @@ if __name__ == "__main__":
 		result = main(query_words,query_id)
 		for docs in result:
 			top_documents.append(docs[0])
-		for i in task2_VSCS.doc_term_index:
+		for i in task2_BM25.doc_term_index:
 			if i in top_documents:
 				relevant_documents.append(i)
 			else:

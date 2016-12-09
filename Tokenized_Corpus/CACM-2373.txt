@@ -5,7 +5,6 @@ working-set
 model
 a
 program
-'s
 working
 set
 w

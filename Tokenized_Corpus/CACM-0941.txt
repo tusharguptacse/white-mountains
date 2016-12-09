@@ -27,7 +27,6 @@ nature
 and
 uses
 simpson
-'s
 rule
 combined
 with

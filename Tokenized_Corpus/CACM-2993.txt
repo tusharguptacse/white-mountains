@@ -49,7 +49,7 @@ linear
 programming
 models
 using
-ibm's
+ibms
 mps
 package
 instances

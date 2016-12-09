@@ -35,7 +35,6 @@ integration
 formulas
 like
 simpson
-'s
 that
 depend
 on
@@ -143,7 +142,6 @@ is
 compared
 with
 simpson
-'s
 the
 new
 formulas

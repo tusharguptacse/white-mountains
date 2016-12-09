@@ -18,7 +18,6 @@ integration
 fourier
 coefficients
 filon
-'s
 method
 516
 ca691113

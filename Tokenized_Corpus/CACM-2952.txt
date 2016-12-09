@@ -4,7 +4,7 @@ with
 word-parallel
 logical
 and
-two's-complement
+twos-complement
 addition
 instructions
 cacm
@@ -16,7 +16,7 @@ s
 jr
 boolean
 functions
-two's-complement
+twos-complement
 sign
 propagation
 40

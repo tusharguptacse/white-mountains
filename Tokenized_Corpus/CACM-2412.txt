@@ -1,7 +1,6 @@
 comment
 on
 brent
-'s
 scatter
 storage
 algorithm

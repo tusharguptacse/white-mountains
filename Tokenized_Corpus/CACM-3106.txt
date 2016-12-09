@@ -65,7 +65,6 @@ significantly
 faster
 than
 fisher
-'s
 algorithm
 the
 fastest

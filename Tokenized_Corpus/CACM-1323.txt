@@ -5,7 +5,6 @@ algol
 60
 and
 church
-'s
 lambda-notation
 part
 i*
@@ -40,7 +39,6 @@ modified
 form
 of
 church
-'s
 l-notation
 first
 a
@@ -91,7 +89,6 @@ many
 of
 algol
 60
-'s
 features
 emerge
 as

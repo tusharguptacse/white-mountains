@@ -4,7 +4,7 @@ solution
 to
 the
 cigarette
-smoker's
+smokers
 problem
 without
 conditional
@@ -25,7 +25,6 @@ that
 the
 cigarette
 smoker
-'s
 problem
 can
 not
@@ -49,7 +48,6 @@ an
 examination
 of
 patil
-'s
 proof
 shows
 that

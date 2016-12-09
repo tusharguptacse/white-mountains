@@ -18,7 +18,7 @@ series
 systems
 are
 sperry
-univac's
+univacs
 large-scale
 main
 frame

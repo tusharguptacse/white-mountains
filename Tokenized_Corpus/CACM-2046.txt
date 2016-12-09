@@ -190,7 +190,6 @@ consistency
 in
 the
 user
-'s
 model
 cacm
 june

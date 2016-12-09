@@ -5,7 +5,6 @@ algol
 60
 and
 church
-'s
 lambda-notation
 part
 ii*

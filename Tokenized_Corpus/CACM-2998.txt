@@ -52,7 +52,6 @@ to
 obey
 roughly
 zipf
-'s
 law
 which
 governs
@@ -169,7 +168,6 @@ poin
 ter
 compression
 zipf
-'s
 law
 list
 linearization

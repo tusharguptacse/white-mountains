@@ -113,7 +113,6 @@ parallel
 merging
 algorithm
 batcher
-'s
 algorithm
 which
 requires

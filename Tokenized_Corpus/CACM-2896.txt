@@ -9,7 +9,6 @@ a
 parallel
 program
 dijkstra
-'s
 on-the-fly
 garbage
 collector

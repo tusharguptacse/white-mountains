@@ -1,5 +1,4 @@
 simpson
-'s
 rule
 for
 multiple

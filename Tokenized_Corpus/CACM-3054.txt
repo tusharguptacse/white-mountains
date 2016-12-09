@@ -78,7 +78,6 @@ standpoint
 to
 illustrate
 quicksort
-'s
 wide
 applicability
 as

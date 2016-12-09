@@ -71,7 +71,6 @@ complex
 interval
 arithmetic
 newton
-'s
 method
 cauchy-ostrowski
 theorem

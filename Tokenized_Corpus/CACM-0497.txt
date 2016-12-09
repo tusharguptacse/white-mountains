@@ -119,7 +119,6 @@ to
 some
 of
 stone
-'s
 equations
 are
 indicated
@@ -146,7 +145,6 @@ is
 shown
 how
 bellman
-'s
 method
 may
 be

@@ -1,5 +1,4 @@
 student
-'s
 t-distribution
 algorithm
 344
@@ -11,7 +10,6 @@ levine
 d
 a
 student
-'s
 t-distribution
 t-test
 small-sample

@@ -6,7 +6,6 @@ the
 experiences
 of
 mesa
-'s
 first
 users-primarily
 its

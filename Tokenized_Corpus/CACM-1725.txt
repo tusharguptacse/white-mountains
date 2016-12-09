@@ -3,7 +3,6 @@ simple
 proof
 of
 lewin
-'s
 ordered-retrieval
 theorem
 for

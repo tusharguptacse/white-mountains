@@ -10,10 +10,8 @@ j
 b
 f
 fisher
-'s
 f-distribution
 students
-'s
 t-distribution
 55
 ca690108

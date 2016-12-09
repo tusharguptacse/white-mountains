@@ -2,7 +2,6 @@ a
 modification
 of
 warshall
-'s
 algorithm
 for
 the
@@ -36,7 +35,7 @@ algorithm
 is
 similar
 to
-warshall's
+warshalls
 although
 it
 executes
@@ -60,7 +59,6 @@ h
 s
 jr
 warshall
-'s
 algorithm
 transitive
 closure

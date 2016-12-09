@@ -28,7 +28,6 @@ comprehension
 of
 the
 object
-'s
 structure
 or
 to

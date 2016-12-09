@@ -117,7 +117,6 @@ with
 the
 pointed-to
 location
-'s
 transplanted
 contents
 cacm

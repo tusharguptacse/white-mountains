@@ -229,7 +229,6 @@ an
 extension
 of
 sakai-cocke
-'s
 algorithm
 for
 normal

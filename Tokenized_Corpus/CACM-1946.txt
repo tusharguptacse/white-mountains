@@ -2,7 +2,6 @@ computing
 polynomial
 resultants
 bezout
-'s
 determinant
 vs
 collins
@@ -81,7 +80,6 @@ best
 algorithm
 to
 bezout
-'s
 determinant
 and
 collins
@@ -101,7 +99,6 @@ conclusively
 show
 that
 bezout
-'s
 determinant
 is
 superior
@@ -125,7 +122,6 @@ faster
 in
 particular
 bezout
-'s
 determinant
 proves
 to
@@ -167,10 +163,8 @@ polynomial
 resultant
 elimination
 bezout
-'s
 determinant
 sylvester
-'s
 determinant
 reduced
 prs

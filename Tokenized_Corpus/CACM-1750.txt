@@ -63,7 +63,6 @@ of
 dual
 cdc
 6600
-'s
 that
 share
 one

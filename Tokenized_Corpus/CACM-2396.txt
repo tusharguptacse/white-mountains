@@ -24,7 +24,6 @@ like
 that
 of
 quillian
-'s
 tlc
 muse
 from
@@ -78,7 +77,6 @@ is
 similar
 to
 tlc
-'s
 the
 syntactic
 component
@@ -105,7 +103,7 @@ input
 is
 compatible
 with
-muse's
+muses
 memory
 structures
 allowing

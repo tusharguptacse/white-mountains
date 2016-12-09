@@ -7,7 +7,6 @@ asymmetric
 random
 variables
 tukey
-'s
 lambda
 distribution
 is

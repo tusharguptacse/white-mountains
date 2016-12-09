@@ -26,7 +26,6 @@ which
 have
 ibm
 650
-'s
 cacm
 august
 1959

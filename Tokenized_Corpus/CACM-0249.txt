@@ -7,7 +7,6 @@ and
 their
 processors*-a
 baker
-'s
 dozen
 cacm
 december

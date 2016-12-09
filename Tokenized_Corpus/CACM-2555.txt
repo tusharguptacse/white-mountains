@@ -55,7 +55,6 @@ p
 denotes
 the
 operation
-'s
 precision
 and
 ei
@@ -65,7 +64,6 @@ error
 in
 the
 operation
-'s
 ith
 argument
 this

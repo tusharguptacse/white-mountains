@@ -1,5 +1,4 @@
 wengert
-'s
 numerical
 method
 for
@@ -57,7 +56,6 @@ then
 evaluated
 numerically
 wengert
-'s
 method
 appears
 very

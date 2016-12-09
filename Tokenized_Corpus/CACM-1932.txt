@@ -3,7 +3,6 @@ logarithmic
 error
 and
 newton
-'s
 method
 for
 the
@@ -25,7 +24,6 @@ square
 root
 using
 newton
-'s
 method
 is
 considered
@@ -115,7 +113,6 @@ l
 square
 root
 newton
-'s
 method
 relative
 error

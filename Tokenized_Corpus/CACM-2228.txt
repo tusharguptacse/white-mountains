@@ -5,7 +5,6 @@ of
 system
 deadlocks
 habermann
-'s
 method
 of
 deadlock
@@ -41,7 +40,7 @@ introduce
 artificial
 deadlocks
 which
-habermann's
+habermanns
 method
 does
 not

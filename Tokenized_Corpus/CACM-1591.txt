@@ -109,7 +109,6 @@ compilers
 library
 and
 user
-'s
 programs
 were
 at

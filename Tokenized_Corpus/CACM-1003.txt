@@ -104,7 +104,6 @@ direct
 statement
 of
 fourier
-'s
 law
 of
 heat

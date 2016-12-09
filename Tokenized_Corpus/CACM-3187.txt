@@ -29,7 +29,6 @@ published
 algorithms
 demonstrates
 quickersort
-'s
 superior
 performance
 cacm

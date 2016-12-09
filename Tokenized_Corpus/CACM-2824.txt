@@ -2,7 +2,6 @@ an
 improvement
 to
 martin
-'s
 algorithm
 for
 computation

@@ -16,12 +16,12 @@ fourth-order
 differential
 equation
 y
-''+p
++p
 x
 y
 +q
 x
-y'+r
+y+r
 x
 y=t
 x

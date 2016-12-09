@@ -33,7 +33,6 @@ information
 about
 the
 network
-'s
 topology
 since
 nodes
@@ -104,7 +103,6 @@ is
 based
 on
 baran
-'s
 hot
 potato
 heuristic

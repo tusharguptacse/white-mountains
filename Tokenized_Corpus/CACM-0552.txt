@@ -1,5 +1,4 @@
 gauss
-'s
 method
 algorithm
 107

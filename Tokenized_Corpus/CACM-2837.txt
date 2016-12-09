@@ -45,7 +45,6 @@ algorithm
 and
 extends
 kirkpatrick
-'s
 method
 to
 a

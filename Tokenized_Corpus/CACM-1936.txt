@@ -218,7 +218,6 @@ the
 structure
 using
 sussenguth
-'s
 cost
 criterion
 is
@@ -245,7 +244,6 @@ obtained
 by
 relaxing
 sussenguth
-'s
 restriction
 that
 all

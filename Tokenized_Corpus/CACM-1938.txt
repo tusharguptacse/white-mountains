@@ -42,7 +42,6 @@ is
 each
 terminal
 user
-'s
 ability
 to
 utilize

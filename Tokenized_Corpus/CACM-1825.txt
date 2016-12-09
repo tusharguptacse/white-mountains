@@ -107,7 +107,6 @@ each
 part
 using
 knuth
-'s
 algorithm
 and
 if

@@ -1,7 +1,6 @@
 comment
 on
 bell
-'s
 quadratic
 quotient
 method

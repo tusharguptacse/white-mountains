@@ -43,7 +43,7 @@ known
 studies
 that
 measure
-programmers'
+programmers
 performance
 under
 controlled

@@ -100,7 +100,6 @@ the
 efficiency
 of
 johnk
-'s
 method
 the
 paper
@@ -132,7 +131,6 @@ than
 1
 use
 johnk
-'s
 method
 2
 when

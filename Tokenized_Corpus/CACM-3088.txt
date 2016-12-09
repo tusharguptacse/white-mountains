@@ -50,7 +50,6 @@ sets
 of
 identical
 cpu
-'s
 i/o
 processors
 main

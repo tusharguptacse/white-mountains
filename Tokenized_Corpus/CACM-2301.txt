@@ -14,7 +14,6 @@ similar
 to
 van
 wijngaarden
-'s
 two-level
 grammars
 used
@@ -87,7 +86,6 @@ to
 that
 of
 deremer
-'s
 for
 converting
 a
@@ -121,7 +119,6 @@ possible
 extensions
 to
 koster
-'s
 definition
 of
 affix

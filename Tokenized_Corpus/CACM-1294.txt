@@ -67,10 +67,8 @@ the
 algorithm
 in
 gregory
-'s
 and
 raney
-'s
 paper
 cacm
 march

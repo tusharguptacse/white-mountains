@@ -60,7 +60,6 @@ distribution
 of
 each
 data-item
-'s
 length
 are
 assumed

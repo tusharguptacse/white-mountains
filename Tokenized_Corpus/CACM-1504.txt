@@ -81,7 +81,6 @@ is
 superior
 to
 welch
-'s
 however
 when
 the
@@ -95,7 +94,6 @@ is
 very
 large
 welch
-'s
 algorithm
 is
 superior

@@ -46,7 +46,6 @@ from
 the
 first
 term
-'s
 implementation
 are
 presented

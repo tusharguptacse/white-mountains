@@ -22,7 +22,6 @@ budget
 curve
 of
 nolan
-'s
 stage
 model
 of

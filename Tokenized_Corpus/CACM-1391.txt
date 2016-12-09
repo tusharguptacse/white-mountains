@@ -56,7 +56,6 @@ serve
 as
 a
 teacher
-'s
 aid
 to
 the

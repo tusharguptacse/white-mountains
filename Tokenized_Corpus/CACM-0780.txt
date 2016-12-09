@@ -2,7 +2,7 @@ algorithm
 42
 invert
 alg107
-gauss's
+gausss
 method
 alg120
 inversion

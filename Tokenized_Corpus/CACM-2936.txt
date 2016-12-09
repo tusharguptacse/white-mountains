@@ -68,7 +68,6 @@ first
 the
 new
 algorithm
-'s
 performance
 is
 quite

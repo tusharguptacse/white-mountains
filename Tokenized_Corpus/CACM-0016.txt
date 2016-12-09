@@ -2,7 +2,6 @@ secant
 modification
 of
 newton
-'s
 method
 cacm
 august

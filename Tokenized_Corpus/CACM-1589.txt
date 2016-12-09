@@ -112,7 +112,6 @@ to
 restrict
 the
 programmer
-'s
 choice
 of
 input

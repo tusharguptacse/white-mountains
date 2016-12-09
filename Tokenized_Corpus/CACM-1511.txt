@@ -1,7 +1,6 @@
 the
 damped
 taylor
-'s
 series
 method
 for

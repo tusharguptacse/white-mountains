@@ -41,7 +41,6 @@ a
 generalization
 of
 graeffe
-'s
 root-squaring
 technique
 for

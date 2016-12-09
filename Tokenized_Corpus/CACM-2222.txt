@@ -1,7 +1,6 @@
 comment
 on
 london
-'s
 certification
 of
 algorithm

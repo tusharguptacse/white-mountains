@@ -79,7 +79,6 @@ area
 of
 the
 computer
-'s
 central
 core
 storage

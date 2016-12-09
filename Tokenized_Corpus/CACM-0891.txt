@@ -1,5 +1,4 @@
 everyman
-'s
 information
 retrieval
 system

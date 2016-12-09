@@ -86,7 +86,6 @@ produces
 the
 desired
 function
-'s
 derivative
 the
 main

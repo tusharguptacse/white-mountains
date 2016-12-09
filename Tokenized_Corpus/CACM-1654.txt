@@ -1,6 +1,5 @@
 a
 university
-'s
 educational
 program
 in
@@ -70,7 +69,6 @@ qualifying
 examinations
 for
 stanford
-'s
 computer
 science
 department

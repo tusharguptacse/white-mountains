@@ -1,5 +1,4 @@
 student
-'s
 t
 frequency
 s14
@@ -12,7 +11,6 @@ hill
 g
 w
 student
-'s
 t
 statistic
 density

@@ -164,7 +164,6 @@ in
 lisp
 with
 dijkstra
-'s
 display
 for
 algol
@@ -188,7 +187,7 @@ lisp
 environment
 trees
 funarg
-'s
+s
 shallow
 binding
 deep

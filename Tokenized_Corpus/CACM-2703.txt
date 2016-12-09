@@ -98,7 +98,6 @@ improved
 version
 of
 knuth
-'s
 circularity
 testing
 algorithm

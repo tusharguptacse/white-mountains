@@ -27,7 +27,6 @@ ties
 together
 the
 company
-'s
 manufacturing
 facilities
 located
@@ -137,7 +136,6 @@ input
 to
 the
 company
-'s
 conventional
 off-line
 business

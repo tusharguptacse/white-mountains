@@ -95,7 +95,6 @@ simple
 extension
 of
 church
-'s
 lambda
 notation
 that

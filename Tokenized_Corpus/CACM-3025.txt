@@ -61,7 +61,7 @@ and
 user
 developments
 the
-pdp-10's
+pdp-10s
 contributions
 to
 computing

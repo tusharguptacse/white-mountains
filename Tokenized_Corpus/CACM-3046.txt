@@ -61,9 +61,8 @@ to
 those
 of
 wallace
-'s
 or
-tadikamalla's
+tadikamallas
 methods
 the
 computational
@@ -92,7 +91,6 @@ by
 ahrens
 and
 dieter
-'s
 method
 for
 all
@@ -108,7 +106,6 @@ than
 ahrens
 and
 dieter
-'s
 method
 cacm
 november

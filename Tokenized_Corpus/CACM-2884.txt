@@ -101,17 +101,14 @@ algorithms
 compared
 to
 boothroyd
-'s
 implementation
 of
 m
 b
 well
-'s
 algorithm
 and
 ehrlich
-'s
 implementation
 of
 the

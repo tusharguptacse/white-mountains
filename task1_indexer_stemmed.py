@@ -23,7 +23,15 @@ def extract_from_input(input_file):
         for tokens in each_list[1:]:
             if not str.isdigit(tokens):
                 token_list.append(tokens)
-        doc_token_list['CACM-' + str(each_list[0])] = token_list
+        if len(str(each_list[0])) == 1:
+            doc_id = '000' + str(each_list[0])
+        elif len(str(each_list[0])) == 2:
+            doc_id = '00' + str(each_list[0])
+        elif len(str(each_list[0])) == 3:
+            doc_id = '0' + str(each_list[0])
+        else:
+            doc_id = str(each_list[0])
+        doc_token_list['CACM-' + doc_id] = token_list
     return doc_token_list
 
 
@@ -40,14 +48,6 @@ def compute_index(doc_token_list):
         for ky, values in word_frequency_pair.iteritems():
             index.setdefault(ky,[]).append((k,values,))
 
-
-
-# Function to write the inverted index to output_file
-# def write_index_to_file(indexed_file, final):
-#     f = open(indexed_file, 'w')
-#     for i in final:    
-#         f.writelines(i + " -> " + str(final[i])[1:-1] + "\n")
-#     f.close()
 
 # Function to write the inverted index to output_file
 def write_index_to_file(indexed_file, final):

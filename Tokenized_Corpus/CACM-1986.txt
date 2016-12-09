@@ -1,5 +1,4 @@
 student
-'s
 t-quantiles
 s14
 algorithm
@@ -11,7 +10,6 @@ hill
 g
 w
 student
-'s
 t-statistic
 quantile
 asymptotic

@@ -2,7 +2,6 @@ a
 note
 on
 cheney
-'s
 nonrecursive
 list-compacting
 algorithm

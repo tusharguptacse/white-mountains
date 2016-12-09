@@ -1,5 +1,4 @@
 master
-'s
 level
 computer
 science
@@ -16,7 +15,6 @@ work
 done
 by
 master
-'s
 degree
 candidates
 at

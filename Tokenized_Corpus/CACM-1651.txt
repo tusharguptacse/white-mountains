@@ -84,7 +84,6 @@ described
 from
 a
 user
-'s
 standpoint
 input
 appears
@@ -103,7 +102,6 @@ only
 by
 a
 keypunch
-'s
 inability
 to
 write

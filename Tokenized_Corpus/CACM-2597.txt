@@ -8,7 +8,6 @@ this
 paper
 develops
 brinch-hansen
-'s
 concept
 of
 a

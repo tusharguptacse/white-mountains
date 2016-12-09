@@ -24,7 +24,6 @@ with
 elements
 of
 bellman
-'s
 dynamic
 programming
 the

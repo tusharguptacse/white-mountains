@@ -34,7 +34,6 @@ been
 coded
 in
 ibm
-'s
 basic
 assembly
 language

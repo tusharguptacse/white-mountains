@@ -111,7 +111,6 @@ can
 affect
 a
 generator
-'s
 statistical
 behavior
 the

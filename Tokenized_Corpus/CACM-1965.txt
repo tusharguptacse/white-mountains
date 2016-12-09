@@ -6,7 +6,6 @@ on
 computers
 with
 two
-'s
 complement
 binary
 arithmetic

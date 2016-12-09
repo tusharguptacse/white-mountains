@@ -14,7 +14,6 @@ the
 application
 of
 kuhn
-'s
 hungarian
 method
 to
@@ -27,7 +26,6 @@ as
 needed
 in
 gotlieb
-'s
 method
 for
 timetable

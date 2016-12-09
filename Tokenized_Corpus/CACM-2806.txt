@@ -21,7 +21,6 @@ both
 related
 to
 hadamard
-'s
 determinant
 theorem
 which

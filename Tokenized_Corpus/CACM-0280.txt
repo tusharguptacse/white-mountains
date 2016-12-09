@@ -9,7 +9,7 @@ compiler
 cacm
 october
 1961
-o'neil
+oneil
 r
 w
 ca611001

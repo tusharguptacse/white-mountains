@@ -58,7 +58,6 @@ compensate
 for
 the
 machine
-'s
 inadequacy
 compensating
 for

@@ -1,5 +1,4 @@
 simpson
-'s
 rule
 for
 multiple
@@ -18,7 +17,6 @@ integration
 multiple
 integration
 simpson
-'s
 rule
 516
 ca700812

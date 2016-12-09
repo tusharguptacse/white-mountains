@@ -5,7 +5,6 @@ runge-kutta
 computations
 with
 gill
-'s
 method
 a
 runge-kutta-gill
@@ -25,7 +24,6 @@ point
 operations
 of
 gill
-'s
 method
 an
 improved

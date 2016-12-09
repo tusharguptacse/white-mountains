@@ -5,7 +5,7 @@ allocation
 policies
 in
 the
-multiprogramming-
+multiprogramming
 multiprocessor
 computer
 system
@@ -18,7 +18,7 @@ feedback-driven
 scheduling
 systems
 for
-multiprogrammed-
+multiprogrammed
 multiprocessor
 computer
 systems

@@ -2,7 +2,7 @@ gaussian
 quadrature
 formulas
 for
-bromwich's
+bromwichs
 integral
 d1
 algorithm
@@ -15,7 +15,6 @@ r
 gaussian
 quadrature
 bromwich
-'s
 integral
 complex
 integration

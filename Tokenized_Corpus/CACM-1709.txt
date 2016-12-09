@@ -2,7 +2,6 @@ a
 modification
 of
 efroymson
-'s
 technique
 for
 stepwise

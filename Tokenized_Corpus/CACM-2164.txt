@@ -11,7 +11,6 @@ integration
 in
 the
 1960
-'s
 are
 described
 the
@@ -22,7 +21,6 @@ intelligence
 led
 to
 slagle
-'s
 saint
 and
 to
@@ -40,14 +38,12 @@ manipulation
 led
 to
 manove
-'s
 implementation
 and
 to
 horowitz
 and
 tobey
-'s
 reexamination
 of
 the
@@ -64,7 +60,6 @@ mathematics
 led
 to
 richardson
-'s
 proof
 of
 the
@@ -80,7 +75,6 @@ functions
 and
 for
 risch
-'s
 decision
 procedure
 for
@@ -89,7 +83,6 @@ elementary
 functionseneralizations
 of
 risch
-'s
 algorithm
 to
 a

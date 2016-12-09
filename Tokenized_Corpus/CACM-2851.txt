@@ -175,7 +175,6 @@ deadlock
 problem
 of
 floyd
-'s
 technique
 for
 proving

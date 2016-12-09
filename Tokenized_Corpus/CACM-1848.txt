@@ -1,7 +1,6 @@
 the
 damped
 taylor
-'s
 series
 method
 for
@@ -33,7 +32,6 @@ least
 squares
 approximation
 newton
-'s
 method
 513
 514

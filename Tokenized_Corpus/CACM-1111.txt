@@ -44,11 +44,9 @@ one
 variable
 both
 lin
-'s
 method
 and
 newton
-'s
 method
 occur
 as

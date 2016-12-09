@@ -16,7 +16,6 @@ root
 calculation
 by
 newton
-'s
 method
 are
 presented

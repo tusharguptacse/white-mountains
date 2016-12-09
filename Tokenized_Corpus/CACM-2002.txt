@@ -169,7 +169,6 @@ fully
 integrable
 with
 user
-'s
 program
 written
 in

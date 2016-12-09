@@ -22,7 +22,6 @@ most
 of
 the
 world
-'s
 production
 programs
 are

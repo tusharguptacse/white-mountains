@@ -47,7 +47,6 @@ studied
 using
 the
 program
-'s
 lifetime
 function
 expressions

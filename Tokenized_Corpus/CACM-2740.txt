@@ -68,7 +68,6 @@ an
 alternative
 to
 dijkstra
-'s
 hierarchical
 structuring
 of

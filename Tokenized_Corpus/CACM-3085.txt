@@ -32,7 +32,6 @@ x
 mn
 where
 mi
-'s
 are
 matrices
 the

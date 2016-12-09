@@ -1,5 +1,4 @@
 horner
-'s
 rule
 for
 the
@@ -67,7 +66,6 @@ a
 generalization
 of
 horner
-'s
 rule
 for
 polynomials
@@ -106,7 +104,6 @@ networks
 queueing
 theory
 horner
-'s
 rule
 evaluation
 of

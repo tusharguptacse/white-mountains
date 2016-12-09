@@ -40,13 +40,11 @@ jr
 r
 l
 arrow
-'s
 paradox
 cyclical
 majority
 simulation
 voter
-'s
 paradox
 voting
 paradox

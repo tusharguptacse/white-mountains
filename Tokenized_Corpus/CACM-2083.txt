@@ -20,7 +20,6 @@ definition
 of
 a
 user
-'s
 common
 structure
 and
@@ -41,7 +40,6 @@ each
 of
 the
 user
-'s
 routines
 the
 definition

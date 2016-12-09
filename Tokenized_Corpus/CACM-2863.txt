@@ -40,7 +40,6 @@ of
 simulating
 vmin
 denning
-'s
 working
 set
 and

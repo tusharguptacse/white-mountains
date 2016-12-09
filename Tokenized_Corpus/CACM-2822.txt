@@ -28,7 +28,6 @@ granted
 provided
 that
 acm
-'s
 copyright
 notice
 is

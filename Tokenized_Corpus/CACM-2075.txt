@@ -18,7 +18,6 @@ april
 pankiewicz
 w
 newton
-'s
 method
 nonlinear
 equations

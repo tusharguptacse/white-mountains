@@ -20,7 +20,7 @@ poles
 of
 gamma
 function
-stirling's
+stirlings
 asymptotic
 series
 recursion

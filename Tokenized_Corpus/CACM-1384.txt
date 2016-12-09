@@ -22,7 +22,7 @@ the
 association
 for
 computing
-machinery's
+machinerys
 curriculum
 committee
 however
@@ -75,7 +75,6 @@ scientific
 disciplines
 the
 committee
-'s
 concern
 is
 to

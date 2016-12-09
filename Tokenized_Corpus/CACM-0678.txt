@@ -24,7 +24,7 @@ functions
 representing
 the
 simulated
-computer's
+computers
 digital
 circuits
 and

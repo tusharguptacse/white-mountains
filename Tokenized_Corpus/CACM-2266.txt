@@ -19,7 +19,7 @@ is
 described
 based
 on
-newton's
+newtons
 method
 which
 simultaneously
@@ -87,7 +87,6 @@ polynomials
 real
 zeros
 newton
-'s
 method
 starting
 values

@@ -3,7 +3,6 @@ numerical
 experiments
 using
 newton
-'s
 method
 for
 nonlinear
@@ -16,7 +15,6 @@ a
 generalization
 of
 newton
-'s
 method
 a
 nonlinear

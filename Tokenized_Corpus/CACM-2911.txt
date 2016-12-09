@@ -201,7 +201,6 @@ decreases
 as
 the
 distribution
-'s
 coefficient
 of
 variation

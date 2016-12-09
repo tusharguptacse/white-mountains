@@ -1,6 +1,5 @@
 on
 harrison
-'s
 substring
 testing
 technique

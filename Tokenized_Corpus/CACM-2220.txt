@@ -10,7 +10,6 @@ proposed
 modification
 to
 pollack
-'s
 algorithm
 pollack
 has
@@ -46,7 +45,6 @@ first
 relies
 on
 shannon
-'s
 noiseless
 coding
 theorem

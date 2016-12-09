@@ -33,7 +33,6 @@ to
 prove
 a
 loop
-'s
 correctness
 directly
 from

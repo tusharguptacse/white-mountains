@@ -87,7 +87,6 @@ queue
 and
 the
 user
-'s
 class
 a
 newly
@@ -113,7 +112,6 @@ queue
 and
 the
 user
-'s
 class
 in
 this
@@ -137,7 +135,6 @@ capacities
 of
 the
 system
-'s
 queues
 are
 derived

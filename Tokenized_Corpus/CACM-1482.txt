@@ -24,7 +24,6 @@ input
 to
 the
 computer
-'s
 memory
 bugsys
 can

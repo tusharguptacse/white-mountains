@@ -26,7 +26,6 @@ polynomial
 regression
 approximation
 forsythe
-'s
 method
 513
 55

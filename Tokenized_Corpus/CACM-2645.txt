@@ -163,7 +163,6 @@ its
 relation
 to
 knuth
-'s
 work
 on
 the

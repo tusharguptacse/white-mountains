@@ -130,7 +130,6 @@ ensure
 that
 one
 user
-'s
 information
 can
 not
