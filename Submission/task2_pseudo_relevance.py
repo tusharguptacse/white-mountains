@@ -69,7 +69,7 @@ def calculate_rocchio_feedback(query,rdocs,ndocs,query_words,query_id):
 		new_query += ' '+j
 
 	result = second_run(query_words,query_id,relevant_documents)
-	task2_file = open('task2_expansion_result.csv','a')
+	task2_file = open('task2_result_after_expansion_new.csv','a')
 	writer = csv.writer(task2_file)
 	if query_id == '1':
 		writer.writerow(["Query_Id", "Literal", "Doc_Id",'Rank','Score','System Name'])
